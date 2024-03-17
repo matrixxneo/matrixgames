@@ -1,0 +1,69 @@
+h1 {
+    color: rgb(5, 179, 243);
+    font-size: 40px;
+    margin: 0 15%;
+    padding: 30px;
+}
+
+h2 {
+    margin: 3% 12%;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    padding: 5%;
+    margin: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color:#00449ce4;
+    box-shadow: 0 0 15px;
+}
+form {
+    margin: 30px;
+    color: white;
+    flex-direction: column;
+    font-size: x-large;
+}
+input {
+    font-size: x-large;
+    padding-left: 15px;
+
+}
+input::placeholder {
+    color: rgb(210, 210, 210);
+}
+input[type="email"],[type="text"]:not([name="sexo"]
+ ) {
+    width: 100%;
+    height: 60px;
+    margin: 10px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+}
+
+input[name="edad"],[name="sexo"],[name="phone"] {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+    width: 12vw;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    margin: 15px;
+}
+select,
+textarea {
+    font-size: x-large;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    width: 80%;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(72, 72, 72);
+}
+
+.last-input label {
+      margin-left: 20px;
+}

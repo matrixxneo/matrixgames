@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
+    
+}
+
+
+h1 {
+    margin: 0 auto;
+
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+span {
+    font-weight: bold;
+}
+
+strong {
+    color: rgb(14, 14, 149);
+}
+
+:root {
+    
+    --clr-gray: #ececec;
+    --clr-black: black;
+    --clr-white: white;
+
+    /* Types */
+    --aventura: violet;
+    --pelea: yellow;
+    --shooter: green;
+    --shooter-2: rgb(142, 218, 142);
+    --carrera: rgb(81, 56, 23);
+    --simulator: rgb(125, 202, 225);
+    --sports: blue;
+    --size: grey;
+    --estrategia: orange;
+    --rpg: rgb(230, 52, 52);
+    --plataforma: #434343;
+    --supervivencia: #7c1111;
+    --terror: #191919;
+    --music: rgb(210, 28, 107);
+    --valoration: #533030;
+}
+
+body {
+    min-height: 100vh;
+
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-image: url(../assets/img/GAMES/Portada/https___hybrismediaprod.blob.core.windows.net_sys-master-phoenix-images-container_hdd_h76_9198275624990_iskur-gallery-1500x1000-hero.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding-block: 1rem;
+    box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+    
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column; 
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+   align-items: center;
+   padding-inline: 1rem;
+   padding-bottom: 20px;
+   position: sticky;
+
+}
+
+.nav-img {
+    box-shadow: 0 0 12px white;
+    border-radius: 100vmax;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.728);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: 1rem;
+    
+
+}
+
+
+.btn {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+.btn-header {
+    background-color: var(--clr-gray);
+    padding: 1.1rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    transition: .1s;
+    
+    
+}
+
+.btn-header:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    
+}
+
+main {
+    padding: 2rem;
+    /*limitar pagina*/
+    /* paginas a mitad */
+    /* max-width: 1000px;
+    margin: 0 auto; */
+}
+
+.all-games {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr ; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 1rem;
+}
+
+@media screen and (min-width: 860px) {
+    .all-games {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .game-type-size {
+        flex-wrap: nowrap;
+    }
+}
+
+.game {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    border-radius: 1rem;
+    /* box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .25); */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+    padding-block: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    gap: 1rem;
+    transition: box-shadow 0.5s ease;
+    /* overflow: hidden; */
+}
+.game:hover {
+    box-shadow: 0 0 10px 10px #00439C;
+    cursor: pointer;
+      
+}
+
+@media screen and (min-width: 1200px) {
+    .all-games {
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .game {
+        flex-wrap: nowrap;
+    }
+    
+    .btn-header {
+        font-size: 1.2rem;
+        padding: 1.2rem;
+    }
+    .nav {
+        max-width: 1400px;
+    }
+
+    .nav-list {
+        gap: .8rem;
+    }
+}
+.game-image {
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.game-image img {
+    width: 100%;
+    max-width: 12rem;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-inline: 1rem;
+    align-items: center;
+    text-align: center;
+      flex-wrap: wrap;
+}
+
+.game-name {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: .5rem;
+   flex-wrap: wrap;
+   text-align: center;
+
+}
+
+.id {
+    margin-top: 3px;
+    background-color: var(--clr-gray);
+    padding: .25rem .5rem;
+    border-radius: 1000vmax;
+    font-weight: 500;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.game-type-size  {
+   display: flex;
+/*    align-items: center; */
+   justify-content: center;
+   column-gap: .5rem;
+   flex-wrap: wrap;
+}
+.game-type-size p{
+margin-bottom: 5px;
+padding: 0.5rem .5rem;
+border-radius: 100vmax;
+}
+
+
+.description {
+    padding-inline: 1rem;
+} 
+
+/* h2 {
+    margin: 0 10%;
+    font-size: 3.5em;
+    text-align: center;
+    padding: 5px;
+} */
+
+
+.container-search {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 50vw;
+    padding: 10px;
+    border: solid;
+    border-radius: 15px;
+    box-shadow: 0 0 8px;
+    font-size: 20px;
+    transition: all 0.4s ease 
+}
+
+.search:focus {
+    border: none;
+    background-color: black;
+    color: white;
+    border: solid black;
+    
+}
+
+.button-search {
+    margin-left: 10px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease ;
+    font-size: 20px;
+}
+.button-search:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+.aventura {
+    background-color: var(--aventura);
+}
+
+.pelea {
+    background-color: var(--pelea);
+}
+.estrategia {
+    background-color: var(--estrategia)
+}
+
+.rpg {
+    background-color: var(--rpg);
+    color: white;
+}
+.plataforma{
+    background-color: var(--plataforma);
+    color: white;
+}
+
+.supervivencia {
+    background-color: var(--supervivencia);
+    color: white;
+}
+
+.shooter {
+    background-color: var(--shooter);
+    color: white;
+}
+
+.shooter-2 {
+    background-color: var(--shooter-2);
+}
+.terror {
+    background-color: var(--terror);
+    color: white;
+}
+
+.simulator {
+    background-color: var(--simulator);
+}
+.carrera {
+    background-color: var(--carrera);
+    color: white;
+}
+
+.music {
+    background-color: var(--music) ;
+    color: white;
+}
+.size {
+background-color: var(--size);
+}
+
+.valoration {
+    background-color: var(--valoration);
+    color: white;
+}
+
