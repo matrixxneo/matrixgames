@@ -58,7 +58,6 @@ for (const button of buttonsHeader) {
     //filtrando games
     const gamesfilter = () => {
       games
-        /* .map((game) => game) */
         .some((game) => {
           if (game.category.includes(categoryId)) {
             return mostrarJuegos(game);

@@ -24,6 +24,7 @@ hr {
     width: 100%;
     box-shadow: 0 0 15px;
     overflow: auto;
+    overflow-y: hidden;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -75,7 +76,7 @@ i {
     .responsive {
         display: block;
         float: right;
-        padding: 20px;
+        padding: 13px;
     }
  /*    .responsive-absolute {  /*Verificar
         display: block;     
@@ -89,9 +90,23 @@ i {
         position: relative;
         bottom: 10px;
     }
-    a, .icon-ajuste {
+    a:not(.button-games, .link), .icon-ajuste {
         display: none;
     }  
+    .container-enlaces{
+        justify-content: center;
+    }
+    .container-enlaces2{
+        justify-content: center;
+    }
+
+    .link {
+        height: 20px;
+    }
+    span {
+        font-weight: bold;
+    }
+    
     .introduccion {
         background: linear-gradient(0deg, white 0%, #a5a5a5 70%) ;
         text-align: center;

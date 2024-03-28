@@ -15,10 +15,6 @@ h1 {
 }
 
 
-span {
-    font-weight: bold;
-}
-
 strong {
     color: rgb(14, 14, 149);
 }
@@ -333,7 +329,7 @@ border-radius: 100vmax;
     color: white;
 }
 
-.shooter-2 {
+.shooter3 {
     background-color: var(--shooter-2);
 }
 .terror {
@@ -362,3 +358,8 @@ background-color: var(--size);
     color: white;
 }
 
+@media screen and (max-width: 600px) {
+    .responsive {
+        height: 70px;
+    }
+}

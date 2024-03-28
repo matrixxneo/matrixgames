@@ -288,7 +288,738 @@ const games = [
     version: 1,
     size: '40gb',
     category: 'aventura'
-  }
+  },
+  {
+    id: 30,
+    name: 'Age of Wonder Planetfall',
+    img: 'age_of_wonder_planetfall.jpg',
+    valoration: '?',
+    description: 'En desarrollo',
+    version: 1,
+    size: '40gb',
+    category: 'estrategia'
+  },
+  {
+    id: 31,
+    name: 'Alladin and Lion King',
+    img: 'aladdin_and_lion_king.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 32,
+    name: `Assassin's Creed Mirage`,
+    img: 'assassins_creed_mirage.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 32,
+    name: 'BattleField 5',
+    img: 'battlefield_5.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: ''
+  },
+  {
+    id: 33,
+    name: 'Ben 10',
+    img: 'ben_10.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 34,
+    name: 'Brawalla',
+    img: 'brawlhalla.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 35,
+    name: 'Cars 3',
+    img: 'cars_3.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  {
+    id: 36,
+    name: 'Civilization',
+    img: 'civilization_6.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'estrategia'
+  },
+  {
+    id: 37,
+    name: 'Control',
+    img: 'control.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: ''
+  },
+  {
+    id: 38,
+    name: 'Crash Bandicot 4',
+    img: 'crash_bandicot_4.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 39,
+    name: 'Crash Bandicot Trilogy',
+    img: 'crash_bandicot_trilogy.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 40,
+    name: 'Crash Team Racing Nitro Fueled',
+    img: 'crash_team_racing_nitro_fueled_3d.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'carreras'
+  },
+  {
+    id: 41,
+    name: 'Darksiders Genesis',
+    img: 'darksiders_genesis.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 42,
+    name: 'Days Gone',
+    img: 'days_gone_3d.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'supervivencia'
+  },
+  {
+    id: 43,
+    name: 'Death Stranding',
+    img: 'death_stranding.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 44,
+    name: 'Demon Slayer (Kimetsu no Yaiba)',
+    img: 'demon_slayer.jpg',
+    valoration: '?',
+    description: '...',
+    version: 1,
+    size: '40gb',
+    category: 'pelea'
+  },
+  {
+    id: 45,
+    name: 'Detroit Become Human',
+    img: 'detrotit_become.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 46,
+    name: 'Devil My Cry Definitive Edition',
+    img: 'devil_my_cry_definitive_edition.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 47,
+    name: 'Dirt 5',
+    img: 'dirt-5.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  {
+    id: 48,
+    name: 'Dissidia Final Fantasy',
+    img: 'dissidia_final_fantasy.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'pelea'
+  },
+  {
+    id: 49,
+    name: 'FC 24',
+    img: 'fc_24.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'deporte'
+  },
+  {
+    id: 50,
+    name: 'FIST',
+    img: 'fist.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 51,
+    name: 'Ghost of Tushima Director Cut',
+    img: 'ghost_of_tushima_director_cut.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'rpg'
+  },
+  {
+    id: 52,
+    name: 'Ghosst Recond Wildlands',
+    img: 'ghost_recon_wildlands.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'shooter3'
+  },
+  {
+    id: 53,
+    name: 'Gof of War 3 Remastered',
+    img: 'god_of_war_3.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 54,
+    name: 'Grid Legends',
+    img: 'grid_legends.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  {
+    id: 55,
+    name: 'Hellblade Sacrifice',
+    img: 'hellblade_sacrifice.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 56,
+    name: 'Hitman 1',
+    img: 'hitman_1.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'shooter3'
+  },
+  {
+    id: 57,
+    name: 'Hitman 2',
+    img: 'hitman_2.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'shooter3'
+  },
+  {
+    id: 58,
+    name: 'Hitman 3',
+    img: 'hitman_3.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'shooter3'
+  },
+  {
+    id: 59,
+    name: 'Hogwarts Legacy',
+    img: 'hogwarts_legacy.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'rpg'
+  },
+  {
+    id: 60,
+    name: 'Hollow Knight',
+    img: 'hollow_knight.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 61,
+    name: 'Horizon Forbidden West',
+    img: 'horizon_forbidden_west_3d.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'rpg'
+  },
+  {
+    id: 62,
+    name: 'Infamous Second Son',
+    img: 'infamous_second_son.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'rpg'
+  },
+  {
+    id: 63,
+    name: 'Jump Force',
+    img: 'jump_force.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'pelea'
+  },
+  {
+    id: 64,
+    name: 'Kao',
+    img: 'kao_kangaroo.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'pelea'
+  },
+  {
+    id: 65,
+    name: 'Kong FU Panda Showdown of Legendary Legends',
+    img: 'kong_fu_panda_showdown_of_legendary_legends.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 66,
+    name: 'Little Big Planet',
+    img: 'little_big_planet_3_3d.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 67,
+    name: 'Little Nigthmares',
+    img: 'little_nigthmares.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 68,
+    name: 'Lord of the fallen',
+    img: 'lords_of_the_fallen.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 69,
+    name: 'Mafia Definitive Edition',
+    img: 'mafia_definitive_edition.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'rpg'
+  },
+  {
+    id: 70,
+    name: 'Metro Exodus',
+    img: 'metro_exodus.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'shooter'
+  },
+  {
+    id: 71,
+    name: 'Maincraft',
+    img: 'minecraft.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'estrategia'
+  },
+  {
+    id: 72,
+    name: 'Monopolio',
+    img: 'monopolio.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'estrategia'
+  },
+  {
+    id: 73,
+    name: 'Need for speed Heat',
+    img: 'need_for_speed_heat.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  {
+    id: 74,
+    name: 'Need for speed Hot Porsuit',
+    img: 'need_for_speed_hot_porsuit.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  {
+    id: 75,
+    name: 'Oceabhorn',
+    img: 'oceanhorn_monster_of_uncharted_seas.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 76,
+    name: 'Ratchet and Clank',
+    img: 'ratchet_clank.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'rpg'
+  },
+  {
+    id: 77,
+    name: 'Resident Evil 3 Remake',
+    img: 'resident_evil_3.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'supervivencia'
+  },
+  {
+    id: 78,
+    name: 'Resident Evil 4 Remake',
+    img: 'resident_evil_4.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'supervivencia'
+  },
+  {
+    id: 79,
+    name: 'Resident Evil Village',
+    img: 'resident_evil_village.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'supervivencia'
+  },
+  {
+    id: 80,
+    name: 'Sackboy a Big Adventure',
+    img: 'sackboy_a_big_adventure.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 81,
+    name: 'Sherlock Holmes',
+    img: 'sherlock_holmes.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: ''
+  },
+  {
+    id: 82,
+    name: 'Need for Speed Underground 2 PS4',
+    img: 'need_for_speed_underground_2.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  {
+    id: 83,
+    name: 'Sifu',
+    img: 'sifu.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'pelea'
+  },
+  {
+    id: 84,
+    name: 'Sniper Ghost Warrior Contracts',
+    img: 'sniper_ghost_warrior_contracts.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'shooter'
+  },
+  {
+    id: 85,
+    name: 'Sniper Ghost Warrior Contracts 2',
+    img: 'sniper_ghost_warrior_contracts_2.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'shooter'
+  },
+  {
+    id: 86,
+    name: 'Spiderman Miles Morales',
+    img: 'spiderman_marvel_miles_morales_3d.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'rpg'
+  },
+  {
+    id: 87,
+    name: 'Star Wars Jedi Fallen Order',
+    img: 'star_wars_jedi_fallen_order.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'rpg'
+  },
+  {
+    id: 88,
+    name: 'Stray',
+    img: 'stray.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 89,
+    name: 'Street Fighter 6',
+    img: 'street_fighter_6.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'pelea'
+  },
+  {
+    id: 90,
+    name: 'Super Mario 64',
+    img: 'super_mario_64.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 91,
+    name: 'The Callisto Protocol',
+    img: 'the_callisto_protocol_3d.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'supervivencia'
+  },
+  {
+    id: 92,
+    name: 'The King of Fighter XV',
+    img: 'the_king_of_figther_XV.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'pelea'
+  },
+  {
+    id: 93,
+    name: 'The Order',
+    img: 'the_order1886.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'terror'
+  },
+  {
+    id: 94,
+    name: 'Truck Driver',
+    img: 'truck_driver.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'simulator'
+  },
+  {
+    id: 95,
+    name: 'Ultimate Marvel vs Capcom',
+    img: 'ultimate_marvel_vs_capcom_3.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'pelea'
+  },
+  {
+    id: 96,
+    name: 'Vampyr',
+    img: 'vampyr.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'terror'
+  },
+  {
+    id: 97,
+    name: 'Wo Long',
+    img: 'wo_long_3d.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'supervivencia'
+  },
+  {
+    id: 98,
+    name: 'Yu-Gi-OH legacy of Duelist',
+    img: 'yu_gi_oh_legacy_of_duelist.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'plataforma'
+  },
+  {
+    id: 99,
+    name: 'Need for Speed Most Wanted',
+    img: 'need_for_speed_most_wanted.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  {
+    id: 100,
+    name: 'Need for Speed Pro Street',
+    img: 'need_for_speed_pro_street.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  {
+    id: 101,
+    name: 'Need for Speed Payback',
+    img: 'need_for_speed_payback_deluxe_edititon.jpg',
+    valoration: '?',
+    description: '',
+    version: 1,
+    size: '40gb',
+    category: 'carrera'
+  },
+  
 ]
 
  export { games };  
