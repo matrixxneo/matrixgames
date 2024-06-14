@@ -1035,8 +1035,8 @@ const games = [
     img: 'lego_dimensions.jpg',
     valoration: '8.2',
     description: 'Cuando se abre una misteriosa brecha entre los universos de LEGO y succiona a personajes de DC Comics, La LEGO Película y El Señor de los Anillos, les corresponde a Batman, Gandalf y Supercool formar una alianza con el objetivo de salvar a sus amigos y derrotar al malvado Lord Vortech. Así comienza LEGO Dimensions y su vídeo de aventuras y construcción repleto de personas de distintas sagas.',
-    version: 1.00,
-    size: '14.4gb',
+    version: 1.24,
+    size: '27.2gb',
     category: 'aventura'
   },
   {
