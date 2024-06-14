@@ -493,10 +493,10 @@ const games = [
     id: 49,
     name: 'FC 24',
     img: 'fc_24.jpg',
-    valoration: '?',
-    description: '',
-    version: 1,
-    size: '40gb',
+    valoration: '8',
+    description: 'EA Sports FC 24 es el sucesor de FIFA 23, un videojuego de fútbol que se abre paso a una nueva de pura innovación bajo el lema The World is Game, la experiencia futbolística más fiel hasta la fecha con HyperMotionV, PlayStyles optimizado por Opta y el nuevo motor de Frostbite. Con más de 19.000 futbolistas, 700 equipos y 30 ligas para disputas, este simulador del deporte rey quiere que el usuario sienta cada partido como nunca antes gracias a tres tecnologías de vanguardia que ofrecen un realismo sin parangón en todos los partidos. ',
+    version: 1.18,
+    size: '41gb',
     category: 'deporte'
   },
   {
@@ -1019,7 +1019,66 @@ const games = [
     size: '40gb',
     category: 'carrera'
   },
-  
+  {
+    id: 102,
+    name: 'Hotel Transilvania 3 Monster OverBoard',
+    img: 'hotel_transilvania_3_monster_overboard.jpg',
+    valoration: '5.8',
+    description: 'Únete a Drácula y sus amigos en una nueva aventura durante las vacaciones de la familia en Hotel Transylvania 3. El videojuego oficial de la película te pone en la piel del protagonista de la trilogía, interpretado por el actor Adam Sandler, que deberá ayudar a Wayne, Murray y compañía a salir de las Islas Perdidas. Por supuesto, Frankenstein, Hombre Lobo y la Momia podrán ayudar a Drac con sus habilidades para conseguir volver a su crucero con éxito.',
+    version: 1.01,
+    size: '40gb',
+    category: 'aventura'
+  },
+  {
+    id: 103,
+    name: 'Lego Dimensions',
+    img: 'lego_dimensions.jpg',
+    valoration: '8.2',
+    description: 'Cuando se abre una misteriosa brecha entre los universos de LEGO y succiona a personajes de DC Comics, La LEGO Película y El Señor de los Anillos, les corresponde a Batman, Gandalf y Supercool formar una alianza con el objetivo de salvar a sus amigos y derrotar al malvado Lord Vortech. Así comienza LEGO Dimensions y su vídeo de aventuras y construcción repleto de personas de distintas sagas.',
+    version: 1.00,
+    size: '14.4gb',
+    category: 'aventura'
+  },
+  {
+    id: 104,
+    name: 'The Lego Movie',
+    img: 'the_lego_movie.jpg',
+    valoration: '7.6',
+    description: 'Videojuego de acción y aventuras inspirado en el mundo y personajes creados para la película de la popular marca LEGO. El título está protagonizado por Emmet, una figura LEGO corriente identificado por error como el Elegido para salvar el mundo.',
+    version: 1.04,
+    size: '14.4gb',
+    category: 'aventura'
+  },
+  {
+    id: 105,
+    name: 'The Lego Movie 2',
+    img: 'the_lego_movie_2.jpg',
+    valoration: '7.6',
+    description: 'La LEGO Película 2: El Videojuego invita al jugador a explorar el espacio exterior, descubrir nuevos mundos y poner a prueba sus habilidades de Maestro Constructor. ¡Todo es fabuloso!',
+    version: 1.03,
+    size: '8.75gb',
+    category: 'aventura'
+  },
+  {
+    id: 106,
+    name: 'The Lego Ninjago',
+    img: 'the_lego_ninjago.jpg',
+    valoration: '7',
+    description: 'La serie de televisión LEGO Ninjago regresa al mundo de los videojuegos con esta nueva aventura de acción para Nintendo 3DS y PS Vita.',
+    version: 1.00,
+    size: '16.4gb',
+    category: 'aventura'
+  },
+  {
+    id: 107,
+    name: 'Ben 10 Power Trip',
+    img: 'ben_10_power_trip.jpg',
+    valoration: '6.8',
+    description: 'Ben 10 Power Trip es un videojuego de acción y aventura ambientado un mundo 3D lleno de peleas, puzles y secretos donde Ben Tennyson, un joven que usa su fiel Omnitrix para transformarse en diferentes criaturas alienígenas, habrá de salvar el mundo una vez más en una historia inédita frente a la serie de animación en la que el malvado Hex ha hechizado a Europa.',
+    version: 1.03,
+    size: '1.87gb',
+    category: 'aventura'
+  },
 ]
 
  export { games };  
