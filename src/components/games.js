@@ -1079,6 +1079,26 @@ const games = [
     size: '1.87gb',
     category: 'aventura'
   },
+  {
+    id: 108,
+    name: 'Naruto x Boruto Ultimate Ninja Storm Conections',
+    img:'naruto_x_boruto_ultimate_ninja_storm_conections.jpg',
+    valoration: '7.0',
+    description: 'El videojuego ofrecerá el plantel de personajes más grande que se haya visto en un juego de la IP, con nuevas caras tales como Ashura o Indra Otsutsuki, mientras en su gameplay sigue la línea de la franquicia buscando ir un paso más allá con gráficos que inmitan la serie de animación así como con unos combates dinámicos que alcanzan hasta los 60 fps en PlayStation 5, Xbox Series X|S y PC. Además, el modo historia del juego incluirá una selección de momentos de la trama de Naruto, en los que se ahonda en la profunda conexión entre Naruto y Sasuke.',
+    version: 1.30,
+    size: '40GB',
+    category: 'pelea'
+  },
+  {
+    id: 109,
+    name: 'God of War 3 Remastered',
+    img:'god_of_war_3_remastered.jpg',
+    valoration: '8.6',
+    description: 'Remasterización en 1080 y 60 frames por segundo de God of War 3, el juego original de PlayStation 3. Ambientado en la Grecia de la mitología clásica, el tercer capítulo de la saga God of War describe el ascenso de Kratos a las alturas del monte Olimpo en busca de una venganza, alimentada por el ardor de su ira contra los que le han traicionado.',
+    version: 1.00,
+    size: '38.8GB',
+    category: 'aventura'
+  },
 ]
 
  export { games };  
