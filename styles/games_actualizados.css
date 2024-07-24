@@ -32,7 +32,7 @@ strong {
     --shooter-2: rgb(142, 218, 142);
     --carrera: rgb(81, 56, 23);
     --simulator: rgb(125, 202, 225);
-    --sports: blue;
+    --sports: rgb(54, 103, 227);
     --size: grey;
     --estrategia: orange;
     --rpg: rgb(230, 52, 52);
@@ -356,6 +356,11 @@ background-color: var(--size);
 
 .valoration {
     background-color: var(--valoration);
+    color: white;
+}
+
+.deporte {
+    background-color: var(--sports);
     color: white;
 }
 
