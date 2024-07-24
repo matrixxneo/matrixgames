@@ -1129,6 +1129,16 @@ const games = [
     size: '67GB',
     category: 'deporte'
   },
+  {
+    id: 113,
+    name: 'High On Life',
+    img:'high_on_life.jpg',
+    valoration: '8.3',
+    description: 'High on Life es un shooter en primera persona desarrollado y publicado por Squanch Games para PlayStation 4, PlayStation 5, Xbox One, Xbox Series y PC. Una divertida aventura de acción creada por Justin Roiland, el cocreador de exitosa serie de animación de que cuenta con el mismo humor gamberro teniendo que utilizar toda una serie de carismáticas armas parlantes para enfrentarnos a una amenaza alienígena que ha invadido la Tierra',
+    version: 1.11,
+    size: '21.6GB',
+    category: 'shooter'
+  },
 ]
 
  export { games };  
