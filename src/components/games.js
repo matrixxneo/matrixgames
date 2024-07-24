@@ -1099,6 +1099,16 @@ const games = [
     size: '38.8GB',
     category: 'aventura'
   },
+  {
+    id: 110,
+    name: 'God of War Ragnarok Valhalla',
+    img:'god_of_war_ragnarok_valhalla.jpg',
+    valoration: '9.0',
+    description: 'Para desentrañar los misterios del Valhalla, Kratos debe adentrarse en sus profundidades y enfrentarse a desafíos del cuerpo y de la mente.Acompañado únicamente por Mimir, Kratos se embarca en un viaje profundamente personal y reflexivo que le obligará a dominar cuerpo y mente al enfrentarse a los desafíos del Valhalla en una misteriosa aventura rejugable que combina el combate emblemático de God of War Ragnarök con elementos completamente nuevos inspirados en el género roguelite.',
+    version: 5.05,
+    size: '131GB',
+    category: 'aventura'
+  }
 ]
 
  export { games };  

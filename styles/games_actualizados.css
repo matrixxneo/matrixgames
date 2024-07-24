@@ -247,6 +247,7 @@ border-radius: 100vmax;
 
 .description {
     padding-inline: 1rem;
+    margin: 10px;
 } 
 
 /* h2 {
