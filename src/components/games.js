@@ -1139,6 +1139,36 @@ const games = [
     size: '21.6GB',
     category: 'shooter'
   },
+  {
+    id: 114,
+    name: 'Pursuit Force',
+    img:'pursuit_force.jpg',
+    valoration: '8',
+    description: 'Disfruta de Pursuit Force™ tal y como se publicó en el sistema PSP™ (PlayStation®Portable), ahora con renderizado mejorado, opción para rebobinar, guardado rápido y filtros de vídeo personalizados.Cinco bandas violentas luchan por el control de Capital City.',
+    version: 1.01,
+    size: '1GB',
+    category: 'shooter'
+  },
+  {
+    id: 115,
+    name: 'shadow of mordor Middle Earth [GOTY]',
+    img:'shadow_of_mordor_middle_earth.jpg',
+    valoration: '8.8',
+    description: 'La trilogía del Señor de los Anillos realizada por Peter Jackson a principios de siglo trajo consigo el desembarco de Tolkien en los videojuegos. Los primeros ordenadores de los 80 habían tenido alguna adaptación, pero la popularización de la Tierra Media gracias a las películas hizo que la leyenda del anillo volviese para quedarse.',
+    version: 1.05,
+    size: '21.6GB',
+    category: 'aventura'
+  },
+  {
+    id: 116,
+    name: 'shadow of War Middle Earth [DEFINITIVE EDITION]',
+    img:'shadow_of_war_definitive_edition.jpg',
+    valoration: '8.6',
+    description: 'Se trata de la Secuela del título de culto de 2014 Sombras de Mordor, La Tierra Media: Sombras de Guerra nos llevará de nuevo al universo previo a El Señor de los anillos de J.R.R Tolkien. El juego sigue un esquema de jugabilidad que combina elementos de aventura, combate y rol, con toques de sigilo y volveremos a contar con la presencia del novedoso sistema Némesis, el cual será mucho más relevante, ambicioso y complejo',
+    version: 1.18,
+    size: '21.6GB',
+    category: 'aventura'
+  },
 ]
 
  export { games };  
