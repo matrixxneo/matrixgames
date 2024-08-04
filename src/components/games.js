@@ -1169,6 +1169,16 @@ const games = [
     size: '21.6GB',
     category: 'aventura'
   },
+  {
+    id: 117,
+    name: 'Contra Operation Galuga',
+    img:'contra_operation_galuga.jpg',
+    valoration: '8',
+    description: '¡Ya está aquí una nueva entrega de la legendaria serie Contra! Contra: Operation Galuga es una completa reinvención del clásico juego de acción de correr y disparar de los años 80, con gráficos y sonido modernos, nuevos escenarios, nuevos enemigos y jefes, nuevas mecánicas de juego, un sistema de armas actualizado y explosivos combates cooperativos para hasta dos jugadores en el modo historia o cuatro jugadores en el modo Arcade.',
+    version: 1.04,
+    size: '16GB',
+    category: 'plataforma'
+  },
 ]
 
  export { games };  
