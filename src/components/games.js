@@ -1179,6 +1179,27 @@ const games = [
     size: '16GB',
     category: 'plataforma'
   },
+  {
+    id: 118,
+    name: 'Uncharted 3 [GOTY]',
+    img:'uncharted_3_goty.jpeg',
+    valoration: '9.9',
+    description: '¡Lanzado al mercado estadounidense el 1 de noviembre de 2011. La historia se centra alrededor de Nathan Drake y su mentor Victor Sullivan que viajan alrededor del mundo buscando una legendaria ciudad perdida que finalmente les llevará a la península arábiga y el vasto desierto de Rub al-Jali. La legendaria ciudad perdida ha sido conocida por varios nombres, incluyendo Iram de los Pilares o la Atlántida de las Arenas. El juego coge como inspiración al personaje de T. E. Lawrence',
+    version: 'GOTY',
+    size: '50Gb',
+    category: 'ps3'
+  },
+  {
+    id: 119,
+    name: 'Ace Combat: Assault Horizon ',
+    img:'ace_combat_assault_horizon.jpeg',
+    valoration: '9',
+    description: '¡Lanzado al mercado estadounidense el 1 de noviembre de 2011. La historia se centra alrededor de Nathan Drake y su mentor Victor Sullivan que viajan alrededor del mundo buscando una legendaria ciudad perdida que finalmente les llevará a la península arábiga y el vasto desierto de Rub al-Jali. La legendaria ciudad perdida ha sido conocida por varios nombres, incluyendo Iram de los Pilares o la Atlántida de las Arenas. El juego coge como inspiración al personaje de T. E. Lawrence',
+    version: 'update',
+    size: '8Gb',
+    category: 'ps3'
+  },
+  
 ]
 
  export { games };  

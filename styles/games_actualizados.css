@@ -346,7 +346,7 @@ border-radius: 100vmax;
     color: white;
 }
 
-.music {
+.deporte {
     background-color: var(--music) ;
     color: white;
 }
@@ -361,6 +361,11 @@ background-color: var(--size);
 
 .deporte {
     background-color: var(--sports);
+    color: white;
+}
+
+.ps3{
+    background-color: rgb(163, 18, 141);
     color: white;
 }
 
