@@ -76,13 +76,14 @@ i {
     .responsive {
         display: block;
         float: right;
-        padding: 13px;
     }
  /*    .responsive-absolute {  /*Verificar
         display: block;     
     } */
+
     .responsive2 {
         display: block;
+        align-items: center;
         padding: 10px 15px;
     }
     span {
@@ -146,4 +147,8 @@ i {
     cursor: pointer;
     box-shadow: 0 0 15px rgb(0, 0, 0);
   
+}
+
+.active {
+    cursor: pointer;
 }

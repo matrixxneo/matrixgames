@@ -1,0 +1,14 @@
+.table {
+    margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  overflow: none;
+}
+
+.table-platform {
+  padding: 15px;
+  font-size: 1.3rem;
+  max-width: 800px;
+
+  border: 1px solid;
+}

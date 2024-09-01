@@ -119,3 +119,15 @@ button a {
         height: 70px;
     }
 }
+
+.my-name {
+    color: green;
+}
+
+#textWelcome {
+    padding: 0 50px;
+}
+
+.my-name {
+    font-size: 40px;
+}
